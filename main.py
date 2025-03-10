@@ -47,7 +47,7 @@ if st.sidebar.button("Logout"):
     logout()
 
 # --- DATA VISUALIZATION SECTION ---
-st.title('📊 Data Visualizer')
+st.title('Demographic Statistics Visualizer')
 
 working_dir = os.path.dirname(os.path.abspath(__file__))
 folder_path = os.path.join(working_dir, "data")
